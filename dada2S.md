@@ -2,7 +2,7 @@ R Notebook
 ================
 
 ``` r
-library(dada2)
+library(dada2) 
 ```
 
     ## Loading required package: Rcpp
@@ -512,35 +512,41 @@ ord.nmds.bray <- ordinate(ps.prop, method="NMDS", distance="bray")#Normalisation
 ```
 
     ## Run 0 stress 0.08043117 
-    ## Run 1 stress 0.08076339 
-    ## ... Procrustes: rmse 0.01055272  max resid 0.03248642 
-    ## Run 2 stress 0.0947719 
-    ## Run 3 stress 0.08043117 
-    ## ... Procrustes: rmse 4.716012e-06  max resid 9.479823e-06 
+    ## Run 1 stress 0.08076338 
+    ## ... Procrustes: rmse 0.01053688  max resid 0.03243511 
+    ## Run 2 stress 0.08616061 
+    ## Run 3 stress 0.09477218 
+    ## Run 4 stress 0.094771 
+    ## Run 5 stress 0.09477177 
+    ## Run 6 stress 0.08043117 
+    ## ... New best solution
+    ## ... Procrustes: rmse 9.14342e-07  max resid 2.011288e-06 
     ## ... Similar to previous best
-    ## Run 4 stress 0.08076343 
-    ## ... Procrustes: rmse 0.01059335  max resid 0.03261946 
-    ## Run 5 stress 0.08616061 
-    ## Run 6 stress 0.1010628 
-    ## Run 7 stress 0.08076342 
-    ## ... Procrustes: rmse 0.01058351  max resid 0.03258668 
-    ## Run 8 stress 0.08076337 
-    ## ... Procrustes: rmse 0.01050746  max resid 0.03233954 
-    ## Run 9 stress 0.0947721 
-    ## Run 10 stress 0.09477208 
-    ## Run 11 stress 0.1212044 
-    ## Run 12 stress 0.08076337 
-    ## ... Procrustes: rmse 0.0105151  max resid 0.03236414 
-    ## Run 13 stress 0.08076338 
-    ## ... Procrustes: rmse 0.0105348  max resid 0.03242817 
-    ## Run 14 stress 0.1274324 
-    ## Run 15 stress 0.1228545 
-    ## Run 16 stress 0.09477214 
-    ## Run 17 stress 0.08076338 
-    ## ... Procrustes: rmse 0.01053311  max resid 0.03242256 
-    ## Run 18 stress 0.09477183 
-    ## Run 19 stress 0.08076336 
-    ## ... Procrustes: rmse 0.01048242  max resid 0.03225729 
+    ## Run 7 stress 0.08076338 
+    ## ... Procrustes: rmse 0.01052123  max resid 0.03238404 
+    ## Run 8 stress 0.09477201 
+    ## Run 9 stress 0.08076339 
+    ## ... Procrustes: rmse 0.01054086  max resid 0.03244799 
+    ## Run 10 stress 0.08616061 
+    ## Run 11 stress 0.08076337 
+    ## ... Procrustes: rmse 0.01049491  max resid 0.03229792 
+    ## Run 12 stress 0.08076336 
+    ## ... Procrustes: rmse 0.01048071  max resid 0.03225223 
+    ## Run 13 stress 0.08043117 
+    ## ... New best solution
+    ## ... Procrustes: rmse 2.16379e-06  max resid 5.585936e-06 
+    ## ... Similar to previous best
+    ## Run 14 stress 0.08616061 
+    ## Run 15 stress 0.08616061 
+    ## Run 16 stress 0.08076339 
+    ## ... Procrustes: rmse 0.01055532  max resid 0.03249396 
+    ## Run 17 stress 0.09477212 
+    ## Run 18 stress 0.08076338 
+    ## ... Procrustes: rmse 0.01054166  max resid 0.03244921 
+    ## Run 19 stress 0.08043117 
+    ## ... New best solution
+    ## ... Procrustes: rmse 1.555828e-06  max resid 3.419275e-06 
+    ## ... Similar to previous best
     ## Run 20 stress 0.08616061 
     ## *** Best solution repeated 1 times
 
